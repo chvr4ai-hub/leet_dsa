@@ -2,6 +2,11 @@ from sol import Solution, ListNode
 from typing import List, Optional
 
 def to_linked_list(arr: List[int]) -> Optional[ListNode]:
+    """
+    Converts a Python list into a singly linked list. It uses a dummy head node 
+    to maintain a reference to the start of the list while a current pointer 
+    iterates through the input array, creating and appending new nodes.
+    """
     dummy = ListNode(0)
     curr = dummy
     for val in arr:

@@ -51,3 +51,6 @@ class ListNode:
         self.val = val
         self.next = next
 ```
+   
+## Time Limit Exceeded Exception
+If time complexity exceeds 10^8 operations, it will throw Time Limit Exceeded Exception
