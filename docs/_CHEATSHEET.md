@@ -56,4 +56,4 @@ class ListNode:
 If time complexity exceeds 10^8 operations, it will throw Time Limit Exceeded Exception
 
 ## Stackoverflow Error
-When stackspace is full we get this error. Especially when a function is called infinitely (recursive functions)
+Error raised when the call stack runs out of space, commonly from deep or unbounded recursion.
