@@ -54,3 +54,6 @@ class ListNode:
    
 ## Time Limit Exceeded Exception
 If time complexity exceeds 10^8 operations, it will throw Time Limit Exceeded Exception
+
+## Stackoverflow Error
+When stackspace is full we get this error. Especially when a function is called infinitely (recursive functions)
